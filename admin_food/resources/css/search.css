@@ -1,0 +1,127 @@
+th,
+    td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .discount-code,
+    .discount-percent,
+    .create-time,
+    .expiration-time,
+    .number-uses {
+        font-weight: bold;
+        font-size: 1rem;
+        color: #333;
+    }
+
+    .discount-percent {
+        color: #4caf50;
+    }
+
+    .expiration-time,
+    .number-uses {
+        color: #666;
+    }
+
+    .action-buttons {
+        display: flex;
+        align-items: center;
+    }
+
+    .action-button {
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .action-button.view {
+        background-color: #4caf50;
+        color: white;
+    }
+
+    .action-button.edit {
+        background-color: #f44336;
+        color: white;
+    }
+
+    .edit-button {
+        margin-left: 10px;
+    }
+
+    .mdi {
+        font-size: 1.2rem;
+    }
+
+    .status-text {
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .status-available {
+        background-color: #4caf50;
+    }
+
+    .status-unavailable {
+        background-color: #f44336;
+    }
+
+    .pagination-button.active {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .custom-color {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    .custom-color:hover {
+        background-color: #ff6600;
+        color: #fff;
+    }
+
+    .navbar-item {
+        display: flex;
+        align-items: center;
+    }
+
+    .search-control {
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    .dropdown {
+        position: relative;
+        margin-left: 10px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        right: 0;
+        min-width: 160px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }

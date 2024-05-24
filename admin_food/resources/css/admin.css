@@ -1,0 +1,22 @@
+.avatar-container {
+    width: 150px; /* Kích thước cố định */
+    height: 150px; /* Kích thước cố định */
+    border-radius: 50%; /* Biến thành hình tròn */
+    overflow: hidden; /* Ẩn phần ngoài ra nếu hình không phải hình tròn */
+    display: flex; /* Sử dụng flexbox để căn giữa */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+  .avatar-image {
+    width: 100%; /* Đảm bảo hình ảnh lấp đầy toàn bộ phần hình tròn */
+    height: auto; /* Cân chỉnh chiều cao tự động */
+  }
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button-padding {
+    margin-top: 10px;
+  }
+  

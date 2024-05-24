@@ -1,0 +1,60 @@
+/* CSS styles from previous code */
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size */
+}
+
+.category-button {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.category-button.selected {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.category-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.image-container-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative; /* Make the container relative to position the button */
+}
+
+.image-container-item img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.delete-button {
+    position: absolute; /* Position the button relative to the container */
+    top: 0; /* Align to the top */
+    right: 0; /* Align to the right */
+    color: red;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
